@@ -214,6 +214,7 @@ input[type="radio"] {
     width: max-content;
     margin-top: 40px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .buy-now {
@@ -225,4 +226,17 @@ hr.divisore-card {
     width: 50px;
     color: rgb(152, 149, 149);
     margin: 40px 0 40px 0px;
+}
+
+.fa-solid.fa-check {
+    color: rgb(21, 80, 255);
+    font-size: 20px;
+}
+
+.card-end {
+    padding-bottom: 222px;
+}
+
+.col-10 {
+width: 100%;
 }
