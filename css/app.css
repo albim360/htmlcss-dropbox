@@ -138,9 +138,9 @@ header {
 }
 
 .button {
-    background-color: rgb(27, 50, 255);
+    background-color: rgb(68, 91, 220);
     color: white;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 .button + .annulla {
@@ -179,7 +179,7 @@ header {
     display: inherit;
     border: 1px solid rgb(213, 213, 216);
     font-size: 17px;
-    padding: 8px;
+    padding: 3px 0 9px;
 }
 
 input[type="radio"] {
@@ -198,6 +198,31 @@ input[type="radio"] {
 }
 
 .plan  i {
-    margin: 0 0 7px 13px;
     font-size: 14px;
+    margin-top: 20px;
+}
+
+.container-card {
+    padding-left: 14px;
+}
+
+.fa-share-nodes {
+    padding-bottom: 20px;
+}
+
+.button.block {
+    width: max-content;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    text-decoration: underline;
+    color: rgb(92, 125, 245);
+}
+
+hr.divisore-card {
+    width: 50px;
+    color: rgb(152, 149, 149);
+    margin: 40px 0 40px 0px;
 }
