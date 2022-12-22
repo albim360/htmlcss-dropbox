@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+.inline {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    display: block;
+}
+
+body {
+    font-family: sans bl;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+}
+
+.left-button > span {
+    padding: 15px 15px;
+}
+
+.right-sup > span {
+    padding:15px 15px ;
+}
+
+.right-sup > span.blue-button {
+    background-color: rgb(27, 50, 255);
+    padding: 12px 21px;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.container.jumbo {
+    padding-top: 59px;
+    background-color: rgb(175, 208, 234);
+    height: 596px;
+}
+
+.row {
+    display: flex;
+    max-width: 1010px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.title-jumbo {
+    font-size: 63px;
+    padding-bottom: 55px;
+}
+
+.col-65 {
+    width: 65%;
+}
+
+.col-35 {
+    width: 35%;
+}
+
+.p-jumbo {
+    font-size: 17px;
+    padding-bottom: 35px;
+}
+
+.button {
+    background-color: rgb(27, 50, 255);
+    color: white;
+    padding: 10px 10px;
+}
+
+.button + .annulla {
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+.fa-arrow-down {
+    font-size: 38px;
+}
+
+.img-jumbo {
+    filter: drop-shadow(4px 4px 4px rgb(78, 76, 76));
+
+
+}
