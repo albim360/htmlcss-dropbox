@@ -242,6 +242,12 @@ flex-basis: 100%;
 
 .col-10.plan {
     margin-bottom: 119px;
+    
+}
+
+.col-35.partner {
+    padding-left: 55px;
+    padding-top: 120px;
 }
 
 .button-reverse {
@@ -249,4 +255,5 @@ flex-basis: 100%;
     color: rgb(55, 53, 53);
     padding: 10px 20px;
     border: 1px solid grey;
+    width: max-content;
 }
