@@ -132,6 +132,7 @@ header {
 
 .col-16 {
     flex-basis: calc(100%/6);
+    padding-right: 10px;
 
 }
 
