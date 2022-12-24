@@ -126,10 +126,14 @@ header {
 
 .col-30 {
     flex-basis: 30%;
-    min-height: 300px;/* DEBUG RULE */
+    min-height: 300px;
     flex-wrap: wrap;
 }
 
+.col-16 {
+    flex-basis: calc(100%/6);
+
+}
 
 .p-jumbo {
     font-size: 17px;
