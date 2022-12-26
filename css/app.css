@@ -54,6 +54,12 @@ header {
     z-index: 999;
 }
 
+.page-footer {
+    background-color: black;
+    color: white;
+    min-height: 120px;
+}
+
  .left-button > ul{
     display: flex;
     align-items: center;
@@ -85,12 +91,6 @@ header {
 .right-sup > span {
     padding:15px 15px ;
 }
-
-/* .blue-button {
-    background-color: rgb(27, 50, 255);
-    height: 12px;
-    color: white;
-} */
 
 .container {
     margin: 0 auto;
@@ -130,11 +130,15 @@ header {
     flex-wrap: wrap;
 }
 
-.col-16 {
-    flex-basis: calc(100%/6);
-    padding-right: 10px;
-
+.col-15 {
+    flex-basis: calc(100%/5);
 }
+
+.col-16 {
+    flex-basis: calc(100%/3);
+    padding-right: 60px;
+}
+
 
 .p-jumbo {
     font-size: 17px;
@@ -167,6 +171,7 @@ header {
 
 .container.plans {
     max-width: 1000px;
+    margin-bottom: 54px;
 }
 
 .plan {
@@ -221,7 +226,7 @@ input[type="radio"] {
     text-align: center;
 }
 
-.buy-now {
+.blue-under {
     text-decoration: underline;
     color: rgb(92, 125, 245);
 }
@@ -261,4 +266,37 @@ flex-basis: 100%;
     padding: 10px 20px;
     border: 1px solid grey;
     width: max-content;
+}
+
+.title-plans .col-16 {
+    padding-right: 10px;
+}
+
+.title-plans.block.customer {
+    margin-bottom: 40px;
+}
+
+.title-plans.block.customer  > .blue-under {
+    margin-bottom: 75px;
+}
+
+.page-footer li {
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+
+.page-footer h4 {
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.footer-down {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    color: rgb(105, 105, 105);
+}
+
+.line {
+    width: 55%;
+    margin-bottom: 45px;
 }
