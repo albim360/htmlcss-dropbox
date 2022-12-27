@@ -289,8 +289,7 @@ flex-basis: 100%;
     background-color: #b4d0e7;
     color: #61082b;
     display: flex; /* TEST */
-    align-items: center; /* TEST */
-    justify-content: flex-start; /* TEST */
+
 }
 
 .page-footer li {
@@ -316,4 +315,13 @@ flex-basis: 100%;
 
 .business .row {
     align-items: baseline;
+    padding: 24px;
+}
+
+.faq-quest {
+    margin: 10% 49% 0 0;
+}
+
+.faq .title-plans {
+    margin-bottom: 20px;
 }
