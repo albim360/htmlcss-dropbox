@@ -138,6 +138,10 @@ header {
     flex-basis: calc(100%/5);
 }
 
+.col-13 {
+    flex-basis: calc(100%/3);
+}
+
 .col-16 {
     flex-basis: calc(100%/3);
     padding-right: 60px;
@@ -324,4 +328,13 @@ flex-basis: 100%;
 
 .faq .title-plans {
     margin-bottom: 20px;
+}
+
+.client {
+    display: flex;
+}
+
+.img-client {
+    max-width: 50%;
+    max-height: 50%;
 }
